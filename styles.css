@@ -1,13 +1,26 @@
 html {
+  height: 140%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #DCEED1;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #DCEED1;
+  padding: 20px;
+  text-align: justify;
+  vertical-align: middle;
+  line-height: normal;
   height: 100%;
 }
-
 body {
   background-color: #DCEED1;
   color: #3C5029;
-  font-family: 'Jua', sans-serif;
+  font-family: 'Sahitya', serif;
   min-height: 100%;
-  margin: 0;
+  margin: 100px;
 }
 
 h1 {
@@ -15,7 +28,7 @@ text-align:center;
 }
 
 h2 {
-
+text-align:center;
 }
 
 h3 {
